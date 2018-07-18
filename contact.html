@@ -6,31 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="main.js"></script>
+
+
 </head>
 
 <body>
 
-    <h1>Contact</h1>
-    <hr>
-    <div class="container">
-        <form action="/action_page.php">
+    <div class="content">
 
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Jon Smith">
+        <nav>
 
-            <label for="email">email</label>
-            <input type="text" id="email" name="email" placeholder="example@gmail.com">
+            <header>Christina Asaolu</header>
 
-            <label for="message">message</label>
-            <textarea id="message" name="message" placeholder="Write something.." style="height:100px; width: 690px;"></textarea>
+            <a href="About">About</a> |
+            <a href="portfolio">Portfolio</a> |
+            <a href="contact">Contact</a> |
+        </nav>
 
-            <input type="submit" value="Submit">
+        <div class="container">
 
-        </form>
+            <div class="section">
+                <h1>Contact</h1>
+                <hr>
+                <form action="/action_page.php">
+
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Jon Smith"><br><br>
+
+                    <label for="email">email</label><br>
+                    <input type="text" id="email" name="email" placeholder="example@gmail.com"><br><br>
+
+                    <label for="message">message</label><br>
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:100px; width: 500px;"></textarea><br><br>
+
+                    <input type="submit" value="Submit"><br>
+
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            Copyright &copy;
+        </footer>
     </div>
-
 </body>
 
 </html>
